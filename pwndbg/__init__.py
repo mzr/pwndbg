@@ -39,6 +39,7 @@ import pwndbg.commands.pie
 import pwndbg.commands.probeleak
 import pwndbg.commands.procinfo
 import pwndbg.commands.radare2
+import pwndbg.commands.dumptrail
 import pwndbg.commands.reload
 import pwndbg.commands.rop
 import pwndbg.commands.ropper
@@ -52,6 +53,7 @@ import pwndbg.commands.theme
 import pwndbg.commands.version
 import pwndbg.commands.vmmap
 import pwndbg.commands.windbg
+import pwndbg.commands.mprotect
 import pwndbg.commands.xinfo
 import pwndbg.commands.xor
 import pwndbg.constants

@@ -33,7 +33,7 @@ def clear_temp_breaks():
         breakpoints = gdb.breakpoints()
         if breakpoints:
             for bp in breakpoints:
-                if bp.temporary and not bp.visible: #visible is used instead of internal because older gdb's don't support internal 
+                if bp.temporary and not bp.visible: #visible is used instead of internal because older gdb's don't support internal
                     bp.delete()
 
 def next_int(address=None):
